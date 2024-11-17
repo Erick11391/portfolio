@@ -1,0 +1,115 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #f9f9f9; /* Light text for dark background */
+    background: #121212; /* Dark background */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ff1ead; /* Bright link color for contrast */
+  }
+  
+  a:hover {
+    color: #ffdd57; /* Highlight link color */
+  }
+  
+  /* Navbar styles */
+  nav {
+    background: #1e1e1e; /* Dark navbar */
+    color: white;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .nav-links li a {
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav-links li a:hover {
+    color: #ffdd57; /* Hover color */
+  }
+  
+  /* Section styles */
+  header, section {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: #1e1e1e; /* Dark section background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+  }
+  
+  header h1, section h2 {
+    color: #ff1e1e; /* Bright heading color */
+  }
+  
+  header p, section p {
+    color: #f9f9f93b;
+  }
+  
+  /* Contact Form styles */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #333333; /* Darker border for inputs */
+    border-radius: 4px;
+    background: #121212; /* Dark input background */
+    color: #f9f9f9; /* Light text color */
+  }
+  
+  .contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: #666; /* Placeholder text color */
+  }
+  
+  .contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #1e90ff; /* Bright button background */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background: #00b35f; /* Darker hover effect */
+  }
+  
+  /* Profile Image and Icons */
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    border: 3px solid #ff831e; /* Highlight border */
+  }
+  
+  .skill-icon, .contact-icon {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .skill-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .contact-icon {
+    width: 50px;
+  }
+  
+  
